@@ -1,18 +1,14 @@
-package Samples
-
-/**
- * Created by MikBac on 30.08.2020
- */
-
-//libraryDependencies += "com.google.zxing" % "core" % "3.4.0"
-//libraryDependencies += "com.google.zxing" % "javase" % "3.4.0"
+package Demos
 
 import java.nio.file.Paths
 
 import com.google.zxing.client.j2se.MatrixToImageWriter
 import com.google.zxing.common.BitMatrix
-import com.google.zxing.{BarcodeFormat, MultiFormatWriter};
+import com.google.zxing.{BarcodeFormat, MultiFormatWriter}
 
+/**
+ * Created by MikBac on 30.08.2020
+ */
 object QRCodeGenerator {
 
   def createQRCode(data: String,
