@@ -4,6 +4,7 @@ package Basic
  * Created by MikBac on 27.08.2020
  */
 
+import java.io.FileNotFoundException
 import java.text.DateFormat._
 import java.time.LocalDate
 import java.util.{Date, Locale}
@@ -143,6 +144,20 @@ object Main {
   def getMatch2(bool: Boolean): String = bool match {
     case true => "you said true"
     case false => "you said false"
+  }
+
+  def getException1(): Unit = {
+    try {
+      // your scala code here
+    }
+    catch {
+      case e: FileNotFoundException => println("")
+      //case bar: BarException => handleBarException(bar)
+      case _: Throwable => println("Got some other kind of Throwable exception")
+    } finally {
+      // your scala code here, such as closing a database connection
+      // or file handle
+    }
   }
 
   def main(args: Array[String]): Unit = {
