@@ -3,7 +3,7 @@
 ## Algorithms
 ### Sorting algorithms
 * [x] Bubble sort
-* [ ] Counting sort
+* [x] Counting sort
 * [ ] Bucket Sort
 * [ ] QuickSort 
 * [ ] Merge sort 
@@ -11,7 +11,7 @@
 
 ### Other algorithms
 * [x] Print duplicate characters from String
-* [ ] Check if two Strings are anagrams of each other
+* [x] Check if two Strings are anagrams of each other
 * [ ] The largest and smallest number in an unsorted integer array
 * [ ] Remove duplicates from an array in place
 * [ ] Transpose a Matrix
