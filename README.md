@@ -1,5 +1,7 @@
 # Set of examples and implementations of algorithms in Scala
 
+![GitHub](https://img.shields.io/github/license/Mikbac/Samples-Scala)
+
 ## Algorithms
 ### Sorting algorithms
 * [x] Bubble sort
