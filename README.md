@@ -7,7 +7,7 @@
 * [x] Bubble sort
 * [x] Counting sort
 * [x] Bucket Sort
-* [ ] QuickSort 
+* [x] QuickSort 
 * [ ] Merge sort 
 * [ ] Heapsort
 
@@ -15,7 +15,7 @@
 * [x] Print duplicate characters from String
 * [x] Check if two Strings are anagrams of each other
 * [x] The largest and smallest number in an unsorted integer array
-* [ ] Remove duplicates from an array in place
+* [x] Remove duplicates from an array in place
 * [ ] Transpose a Matrix
 
 
