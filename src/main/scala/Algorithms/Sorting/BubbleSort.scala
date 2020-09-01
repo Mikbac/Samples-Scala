@@ -1,4 +1,4 @@
-package Algorithms
+package Algorithms.Sorting
 
 /**
  * Created by MikBac on 30.08.2020

@@ -1,4 +1,4 @@
-package Algorithms
+package Algorithms.Other
 
 /**
  * Created by MikBac on 30.08.2020
@@ -6,6 +6,11 @@ package Algorithms
 
 object DuplicateCharacters {
 
+  /**
+   * Print duplicate characters from String
+   *
+   * @param word : String
+   **/
   def printDuplicateCharacters(word: String): Unit = {
     val letterMap = collection.mutable.Map[Char, Int]()
     word.foreach(letter => {

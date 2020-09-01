@@ -1,4 +1,4 @@
-package Algorithms
+package Algorithms.Other
 
 import scala.collection.mutable
 
@@ -8,6 +8,12 @@ import scala.collection.mutable
 
 object Anagrams {
 
+  /**
+   * Check if two Strings are anagrams of each other
+   *
+   * @param wordOne : String, wordTwo: String
+   * @return Boolean
+   **/
   def isAnagram(wordOne: String, wordTwo: String): Boolean = {
 
     val normalWordOne = getNormalization(wordOne)
