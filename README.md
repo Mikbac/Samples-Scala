@@ -8,8 +8,8 @@
 * [x] Counting sort
 * [x] Bucket Sort
 * [x] QuickSort 
-* [ ] Merge sort 
-* [ ] Heapsort
+* [x] Merge sort 
+* [x] Heapsort
 
 ### Other algorithms
 * [x] Print duplicate characters from String
