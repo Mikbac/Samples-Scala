@@ -16,7 +16,7 @@
 * [x] Check if two Strings are anagrams of each other
 * [x] The largest and smallest number in an unsorted integer array
 * [x] Remove duplicates from an array in place
-* [ ] Transpose a Matrix
+* [x] Transpose a Matrix
 
 
 
