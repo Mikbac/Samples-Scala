@@ -42,3 +42,13 @@ val e: String = "Sample text"
                     our fathers ..."""
 ```
 
+* Evaluation Rules
+```
+def eVal = 1      <- evaluated when called
+val eVal = 1      <- evaluated immediately
+lazy val eVal = 1 <- evaluated once when needed
+
+def myFun(x: Double)    <- call by value
+def myFun(x: => Double) <- call by name
+def myFun(bindings: Int*) = { ... } <- bindings is a sequence of int
+```
