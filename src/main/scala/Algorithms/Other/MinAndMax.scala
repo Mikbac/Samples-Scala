@@ -9,7 +9,7 @@ object MinAndMax {
    * The largest and smallest number in an unsorted integer array
    *
    * @param list : List[Int]
-   **/
+   * */
   def min(list: List[Int]): Int = {
     var min: Int = list.head
     list.foreach(numb => if (min > numb) min = numb)

@@ -13,7 +13,7 @@ object Anagrams {
    *
    * @param wordOne : String, wordTwo: String
    * @return Boolean
-   **/
+   * */
   def isAnagram(wordOne: String, wordTwo: String): Boolean = {
 
     val normalWordOne = getNormalization(wordOne)

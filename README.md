@@ -11,6 +11,11 @@
 * [x] Merge sort 
 * [x] Heapsort
 
+### Recursion
+* [x] Sum
+* [x] Max
+* [ ] Mix
+
 ### Other algorithms
 * [x] Print duplicate characters from String
 * [x] Check if two Strings are anagrams of each other

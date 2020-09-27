@@ -10,7 +10,7 @@ object DuplicateCharacters {
    * Print duplicate characters from String
    *
    * @param word : String
-   **/
+   * */
   def printDuplicateCharacters(word: String): Unit = {
     val letterMap = collection.mutable.Map[Char, Int]()
     word.foreach(letter => {
