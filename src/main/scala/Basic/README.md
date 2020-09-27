@@ -52,3 +52,46 @@ def myFun(x: Double)    <- call by value
 def myFun(x: => Double) <- call by name
 def myFun(bindings: Int*) = { ... } <- bindings is a sequence of int
 ```
+
+* Higher order functions
+max() returns a function that takes two integers and returns an integer  
+```
+def max(f: Int => Int): (Int, Int) => Int = {  
+  def sum(a: Int, b: Int): Int = {...}  
+  sumf  
+} 
+```
+
+#### Classes
+Like classes in Java.
+
+Classes in Scala cannot have static members.
+
+#### Traits
+Like interfaces in Java.
+
+(They can also contain method implementations or field definitions)
+
+#### Objects
+Every object definition there is only one single instance.
+
+#### Collections
+##### Base Classes
+* Iterable
+* Seq 
+* Set
+* Map 
+
+##### Immutable Collections
+* List 
+* Stream 
+* Vector 
+* Range
+* String
+* Map
+* Set
+
+##### Mutable Collections
+* Array
+* Scala also has mutable maps and sets
+
