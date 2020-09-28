@@ -15,6 +15,7 @@
 * [x] Sum
 * [x] Max
 * [ ] Mix
+* [ ] Factorial
 
 ### Other algorithms
 * [x] Print duplicate characters from String
@@ -22,9 +23,6 @@
 * [x] The largest and smallest number in an unsorted integer array
 * [x] Remove duplicates from an array in place
 * [x] Transpose a Matrix
-
-
-
 
 ## Technical demos
 * [x] QR code generator
