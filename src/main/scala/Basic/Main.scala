@@ -25,8 +25,12 @@ object Main {
   def createObject(): Unit = {
     // val <- creates an immutable variable (like final in Java)
     // var <- creates a mutable variable
-    val employee = new Employee("John", "Red", 33, 2000, LocalDate.of(2000, 11, 11))
-    println(employee)
+    val employee1 = new Employee1("John", "Red", 33, 2000, LocalDate.of(2000, 11, 11))
+    println(employee1)
+    val employee2 = new Employee2("1", "", 12, 1000, LocalDate.of(2020, 1, 8))
+    println(employee2)
+    val employee3 = new Employee2("White")
+    println(employee3)
   }
 
   def createVariables(): Unit = {
@@ -162,8 +166,8 @@ object Main {
 
   def main(args: Array[String]): Unit = {
 
-    //getOutput()
-    //getInput()
+    getOutput()
+    getInput()
 
     createDate()
     createObject()
@@ -174,5 +178,6 @@ object Main {
     getExpression()
     println(getMatch1())
     println(getMatch2(true))
+
   }
 }

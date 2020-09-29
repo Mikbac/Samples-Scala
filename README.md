@@ -14,7 +14,7 @@
 ### Recursion
 * [x] Sum
 * [x] Max
-* [ ] Mix
+* [x] Mix
 * [ ] Factorial
 
 ### Other algorithms
