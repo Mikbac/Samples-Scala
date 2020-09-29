@@ -21,5 +21,5 @@ class Employee2(name: String,
 
   def this(surname: String) = this("Name", surname, 12, 1234, LocalDate.now())
 
-  override def toString: String = name + '/' + surname + '/' + age
+  override def toString: String = "{" + name + ',' + surname + ',' + age + "}"
 }
