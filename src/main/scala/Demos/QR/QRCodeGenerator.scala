@@ -1,4 +1,4 @@
-package Demos
+package Demos.QR
 
 import java.nio.file.Paths
 

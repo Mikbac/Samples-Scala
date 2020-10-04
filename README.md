@@ -15,7 +15,7 @@
 * [x] Sum
 * [x] Max
 * [x] Mix
-* [ ] Factorial
+* [x] Factorial
 
 ### Other algorithms
 * [x] Print duplicate characters from String
